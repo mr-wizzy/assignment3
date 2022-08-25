@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Smooch&display=swap');
+* {
+    background-color: #f5f5f5;
+    font-family: poppins;
+    padding: 0;
+    border: 0;
+}
+button { 
+   width: 150px;
+   height: 50px;
+   border: 0px;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   color: #3363ff;
+   background-color: #e6ecff;
+}
+button:hover {
+    color: whitesmoke;
+    background-color: brown;
+}
+img {
+    width: 360px;
+    height: 200px;
+}
+/* Background - #f5f5f5;
+cardshadow - box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+button color: #3363ff;
+button background-color: #e6ecff; */
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    border: 30px;
+    padding: 65px;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+    
+    /* background-color: #f5f5f5; */
+}
+.first {
+    width: 360px;
+    height: 400px;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.second {
+    width: 360px;
+    height: 400px;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    /* padding: 10px;
+    border: 2px;
+    border-radius: 2px; */
+}
+.third {
+    width: 360px;
+    height: 400px;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media screen  and(max-width: 1079px) {
+    #main {
+        width: 320px;
+    }
+}
+@media screen  and (max-width: 1024px) {
+    #main {
+        /* width: 900px; */
+        height: 450px;
+        display: flex;
+        
+        }
+    .first, .second, .third {
+        margin: 20px;
+        width: 200px;
+        font-size: 18px;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+@media screen  and (max-width: 800px) {
+    #main {
+        width: 800px;
+        display: flex;
+    }
+    .first, .second, .third {
+        width: 200px;
+        font-size: 15px;
+    }
+    img {
+        width: 200px;
+        padding: 5px;
+    }
+}
+@media screen  and (max-width: 540px) {
+    #main {
+        display: flex;
+        width: 400px;
+    }
+    .first, .second, .third {
+        width: 100px;
+        height: 500px;
+        font-size: 10px;
+    }
+}
+@media screen  and (max-width: 430px) {
+    #main {
+        width: 300px;
+        /* padding: 0px; */
+        margin: 10px;
+        display: block;
+        padding: 10px;
+    }
+    .first, .second, .third {
+        width: fit-content;
+        font-size: 15px;
+    }
+    
+    img{
+        width: 300px;
+        height: 150px;
+    }
+}
