@@ -1,3 +1,3 @@
 
 mh site is live here
-https://whizzy-1.github.io/assignment3/
+https://mr-wizzy.github.io/assignment3/
